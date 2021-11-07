@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto','Open Sans','Source Sans Pro', sans-serif;
+}
+
+form{
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    margin: 3% auto;
+    padding: 3rem 0;
+    border-radius: 10px;
+    background-color: #b4dbf5;
+}
+
+h2{
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset{
+    display: flex;
+}
+
+button{
+    width: 100%;
+    margin: 0 5px;
+}
